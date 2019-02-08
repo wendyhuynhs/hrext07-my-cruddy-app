@@ -9,7 +9,7 @@ Create Read Update and Delete framework using JS
 - [ ] How to caputure data? (web form)
 - [ ] How to modify data? (update action, delete action)
 - [ ] How to view data? (style?)
-- [ ] UI/UX considerations 
+- [ ] UI/UX considerations (how are we going to use this)
 
 ### Advanced Reqs
 - [ ] Item that I added goes here...
