@@ -26,10 +26,12 @@ $(document).ready(function(){
   // delete item
   $('.btn-delete').click(function(){
     localStorage.removeItem(keyData);
+    $('.container-data').text('');
   });
   // delete all?
   $('.btn-clear').click(function(){
     localStorage.clear();
+    $('.container-data').text('');
   });
 
 });
