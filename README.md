@@ -13,3 +13,12 @@ Create Read Update and Delete framework using JS
 
 ### Advanced Reqs
 - [ ] Item that I added goes here...
+- [ ] input [search field/button] - country/city the user would like more info on
+
+- [ ] output - information/images about the country/city 
+	 - Main: 
+	 	- Landmarks, etiquette, food,
+	 	- tips/info: currency, tip amount, visa required? etc.. 
+	 - extra stuff: weather (best time to go), activities 
+ - navigation
+ 	- button to go back to main page
