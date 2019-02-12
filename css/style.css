@@ -1,0 +1,51 @@
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+body {
+	background: url(https://newevolutiondesigns.com/images/freebies/tropical-beach-background-21.jpg) no-repeat center center fixed;
+}
+
+body.background-container {
+	visibility: visible;
+	background-color: #EEFDF8;
+}
+
+.thaititle {
+	display: flex;
+	justify-content: center;
+}
+.thailand {
+	visibility: hidden; 
+}
+
+.thailand.active {
+	visibility: visible;
+}
+
+.austria {
+	background-color: pink;
+	border: 1px solid;
+	visibility: hidden;
+}
+
+.austria.active {
+	background-color: pink;
+	border: 1px solid;
+	visibility: hidden;
+}
+
+
+.greece {
+	background-color: blue;
+	border: 1px solid;
+	visibility: hidden;
+}
+
+.greece.active {
+	background-color: blue;
+	border: 1px solid;
+	visibility: hidden;
+}
