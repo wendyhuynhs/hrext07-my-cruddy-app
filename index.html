@@ -6,36 +6,68 @@
   <script
           src="https://code.jquery.com/jquery-3.3.1.js"
           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-          crossorigin="anonymous"></script>
+          crossorigin="anonymous">
+            
+          </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
-<!--   <script src="app/app.js"></script> -->
+
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <script src="lightbox-plus-jquery.min.js"></script>
+   <script src="app/bucket-list.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
 
-  <!--
-
-√ create container
-√ create button
-√ input field
-√ container to display text
-√ update button(or maybe click on the container item)
-√ delete button
-container for the response-feedback (start with alert)
--->
 </head>
-<body>
+<body background="image/city.jpeg" style="background-repeat: no-repeat; background-size:100% 100vh">
+<header>
+<nav>
+  <ul>
+    <li><a class="home-btn" href="index.html">Home</a> </li>
+    <li> <a href="bl.html" id="click1"> Bucket List </a></li>
+ </ul>
+</nav>
+</header>
+
+
+
+
 
 <div class="container-main">
     <form id="searchForm">
       <input type="text" id='userInput' placeholder="Where to?">
       <button type="submit" class='btn-click' value="Search"> Search </button>
     </form>
-
 </div> 
 
 
-<div class="container-second"> 
+<div class="container-second" > 
 </div>
+
+<div class="img-resize">
+  <div class="gallery">
+   <a href="image/phuket.jpg" data-lightbox="mygallery" data-title="Phuket"> <img src="image/phuket-small.jpg" alt="Phuket Island"> </a>
+   <a href="image/bangkok.jpg" data-lightbox="mygallery" data-title="Bangkok"> <img src="image/bangkok-small.jpg" alt="Pic of Bangkok"> </a>
+   <a href="image/elephant.jpg"data-lightbox="mygallery" data-title="Elephant Sanctuary"> <img src="image/elephant-small.jpg" alt="An Elephant"> </a>
+   <a href="image/islands.jpg"data-lightbox="mygallery" data-title="Phi Phi Island"> <img src="image/islands-small.jpg" alt="Phi Phi Island"> </a>
+   <a href="image/mayabay.jpg"data-lightbox="mygallery"data-title="Maya Bay"> <img src="image/mayabay-small.jpg" alt="Maya Bay"> </a>
+   <a href="image/pattaya.jpg"data-lightbox="mygallery"data-title="Pattaya"> <img src="image/pattaya-small.jpg" alt="Pattaya"> </a>
+   <a href="image/white-temple.jpg"data-lightbox="mygallery"data-title="White Temple"> <img src="image/white-temple-small.jpg" alt="The White Temple"> </a>
+   <a href="image/sunset.jpg"data-lightbox="mygallery" data-title="Sunset"> <img src="image/sunset-small.jpg" alt="sunset"> </a>
+  </div>
+</div>
+
+  <div class="gallery-two">
+   <a href="image/island-small.jpg" data-lightbox="mygallery" data-title="Greek Island"> <img src="image/island.jpg" alt="Greek Island"> </a>
+   <a href="image/acropolis-small.jpg" data-lightbox="mygallery" data-title="The Acropolis"> <img src="image/acropolis.jpg" alt="The Acropolis"> </a>
+   <a href="image/black-sand-small.jpg"data-lightbox="mygallery" data-title="Black Sand Beach"> <img src="image/black-sand.jpg" alt="Black sand beach"> </a>
+   <a href="image/mykonos-small.jpg"data-lightbox="mygallery" data-title="Mykonos"> <img src="image/mykonos.jpg" alt="Mykonos"> </a>
+   <a href="image/paros-small.jpg"data-lightbox="mygallery"data-title="Paros"> <img src="image/paros.jpg" alt="Paros"> </a>
+   <a href="image/santorini-small.jpg"data-lightbox="mygallery"data-title="Santorini"> <img src="image/santorini.jpg" alt="Santorini"> </a>
+
+  </div>
 
 
 <!-- <div class="container-main">
@@ -51,5 +83,6 @@ container for the response-feedback (start with alert)
   <div class="container-data"></div>
 </div> -->
   <script src="app/app.js"></script>
+ <!--  <script src="app/bucket-list.js"></script> -->
 </body>
 </html>
